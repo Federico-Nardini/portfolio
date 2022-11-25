@@ -22,8 +22,7 @@ jobs:
             - name: Install dependencies
               uses: bahmutov/npm-install@v1
               with:
-                  install-command: npm install react-typed --legacy-peer-dep
-                  install-command: npm install
+                  install-command: npm install --legacy-peer-dep
 
             - name: Build project
               run: npm run build
