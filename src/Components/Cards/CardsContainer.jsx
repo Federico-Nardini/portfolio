@@ -8,8 +8,9 @@ import { SiReact, SiTailwindcss, SiJavascript, SiCss3, SiHtml5 } from "react-ico
 
 const Cards = () => {
     return (
-        <div className="w-full py-[10rem] px-4 bg-primary">
-            <div className="max-w-[1240px] mx-auto md:grid-cols-3 grid gap-8">
+        <div className="w-full pb-[10rem] pt-[10rem] px-8 md:px-8 bg-primary">
+           
+            <div className="max-w-[1240px] mx-auto lg:grid-cols-3  grid gap-16 md:gap-8">
                 <Card
                     logo={MealPrep32}
                     title={"Meal Prep"}
@@ -21,7 +22,7 @@ const Cards = () => {
                     techThree={<SiJavascript size={20} className="text-yellow-500" />}
                     nameOne={"HTML5"}
                     nameTwo={"CSS3"}
-                    nameThree={"Javascript"}
+                    nameThree={"JS"}
                     btnWebsite={"https://federico-nardini.github.io/Meal-planner/"}
                     btnCode={"https://github.com/Federico-Nardini/Meal-planner"}
                 />

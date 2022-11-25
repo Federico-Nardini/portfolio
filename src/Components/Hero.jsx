@@ -23,7 +23,7 @@ const Hero = () => {
                                 "CSS",
                                 "HTML",
                                 "Javascript",
-                                "TailwindCSS",
+                                "Tailwind",
                                 "NodeJS",
                                 "ExpressJS",
                             ]}
