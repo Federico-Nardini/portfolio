@@ -5,10 +5,10 @@ const Hero = () => {
     return (
         <div className="text-secondary">
             <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
-                <h1 className="text-4xl font-bold md:text-7xl sm:text-6xl sm:py-4 md:py-6">
+                <h1 className="text-4xl text-secondary font-bold md:text-7xl sm:text-6xl sm:py-4 md:py-6">
                     I'm Federico Nardini
                 </h1>
-                <p className=" font-bold  text-lg md:text-3xl sm:text-2xl">
+                <p className=" font-bold text-secondary text-lg md:text-3xl sm:text-2xl">
                     a Junior Web Developer
                 </p>
                 <div className="flex items-center justify-center">
@@ -34,7 +34,7 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <button className="bg-transparent w-[200px]  border-4 hover:bg-secondary hover:text-primary  rounded-full  duration-300 border-secondary font-medium my-6 mx-auto py-3 text-secondary">
+                <button className="bg-transparent w-[200px]  border-4 hover:bg-accent hover:text-primary  rounded-full  duration-300 border-accent font-medium my-6 mx-auto py-3 text-accent">
                     My projects
                 </button>
             </div>

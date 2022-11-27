@@ -5,11 +5,14 @@ module.exports = {
         extend: {
             colors: {
                 primary: "#083d77",
-                secondary: "#e9e5c6",
-                secondary200: "#ebebd3",
-                tertiary: "#171717",
-                popOff: "#0d2136",
-                primary200: "#06305c",
+                primaryDarker: "#112031",
+                secondary: "#fff",
+                accent: "#61ECBD",
+                accentLighter: "#C8F9E8",
+                accentSaturated: "#00F5A3",
+            },
+            boxShadow: {
+                2: "rgb(17, 32, 49) 0px 20px 30px -10px;",
             },
         },
     },

@@ -1,18 +1,17 @@
 import React from "react";
 import Card from "./Card";
 
-import MealPrep32 from "../../assets/MealPrep32.png";
+import MealPrepDark from "../../assets/MealPrepDark.png";
 import ThisPortfolio32 from "../../assets/ThisPortfolio32.png";
 
 import { SiReact, SiTailwindcss, SiJavascript, SiCss3, SiHtml5 } from "react-icons/si";
 
 const Cards = () => {
     return (
-        <div className="w-full pb-[10rem] pt-[10rem] px-8 md:px-8 bg-primary">
-           
+        <div className="w-full pb-[5rem] md:pb-[10rem] pt-[5rem] md:pt-[10rem] px-8 md:px-8 bg-primary">
             <div className="max-w-[1240px] mx-auto lg:grid-cols-3  grid gap-16 md:gap-8">
                 <Card
-                    logo={MealPrep32}
+                    logo={MealPrepDark}
                     title={"Meal Prep"}
                     description={
                         "This was my first personal project with VanillaJS. It's a simple weekly meal planner that saves data in the browser local storage. I still use it to these days. One day i'll add a real database."
