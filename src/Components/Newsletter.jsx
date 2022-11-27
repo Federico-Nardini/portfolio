@@ -15,9 +15,14 @@ const Newsletter = () => {
                             Let's talk.
                         </h2>
 
-                        <p className=" border-white text-white md:border-b-2 ml-1 hover:border-accent hover:text-accent flex flex-nowrap md:mr-auto mt-2 text-md md:text-xl">
-                            <a href="mailto:fnardini1996@gmail.com">fnardini1996@gmail.com</a>
-                            <BsFillArrowRightCircleFill size={30} className="pl-2 inline" />
+                        <p className=" border-white text-white md:border-b-2 ml-1 hover:border-accent hover:text-accent  duration-300  md:mr-auto mt-2 text-md md:text-xl">
+                            <a
+                                href="mailto:fnardini1996@gmail.com"
+                                className="flex justify-center items-center flex-nowrap"
+                            >
+                                fnardini1996@gmail.com{" "}
+                                <BsFillArrowRightCircleFill size={20} className="pl-1 mt-1" />
+                            </a>
                         </p>
                     </div>
                 </div>
