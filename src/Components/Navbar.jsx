@@ -10,27 +10,51 @@ const Navbar = () => {
     };
 
     return (
-        <div className="sticky top-0 bg-primary shadow-md ">
+        <div className="sticky top-0  bg-primary">
             <div className="flex items-center justify-between h-16 mx-auto max-w-[1240px] px-4 py-4 text-secondary">
                 <h1 className="w-full text-3xl font-bold text-accent">Fe.</h1>
                 <ul className="hidden  md:flex">
-                    <li className="p-4 hover:text-accent cursor-pointer duration-300">
-                        <Link to="home" activeClass="active" smooth={true} duration={400}>
+                    <li className="p-4">
+                        <Link
+                            to="home"
+                            className=" hover:text-accent  cursor-pointer duration-300"
+                            activeClass="active"
+                            smooth={true}
+                            duration={400}
+                        >
                             Home
                         </Link>
                     </li>
-                    <li className="p-4 hover:text-accent cursor-pointer duration-300">
-                        <Link to="about" activeClass="active" smooth={true} duration={400}>
+                    <li className="p-4">
+                        <Link
+                            to="about"
+                            className="hover:text-accent cursor-pointer duration-300"
+                            activeClass="active"
+                            smooth={true}
+                            duration={400}
+                        >
                             About
                         </Link>
                     </li>
-                    <li className="p-4 hover:text-accent cursor-pointer duration-300">
-                        <Link to="projects" activeClass="active" smooth={true} duration={400}>
+                    <li className="p-4">
+                        <Link
+                            to="projects"
+                            className="hover:text-accent cursor-pointer duration-300"
+                            activeClass="active"
+                            smooth={true}
+                            duration={400}
+                        >
                             Projects
                         </Link>
                     </li>
-                    <li className="p-4 hover:text-accent cursor-pointer duration-300">
-                        <Link to="contact" activeClass="active" smooth={true} duration={400}>
+                    <li className="p-4">
+                        <Link
+                            to="contact"
+                            className="hover:text-accent cursor-pointer duration-300"
+                            activeClass="active"
+                            smooth={true}
+                            duration={400}
+                        >
                             Contact
                         </Link>
                     </li>

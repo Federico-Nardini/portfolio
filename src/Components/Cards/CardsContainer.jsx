@@ -10,7 +10,7 @@ const Cards = () => {
     return (
         <div
             id="projects"
-            className="w-full pb-[5rem] md:pb-[10rem] pt-[5rem] md:pt-[10rem] px-8 md:px-8 bg-primary"
+            className="w-full pb-[5rem] md:pb-[10rem] pt-[5rem] md:pt-[10rem] px-8 md:px-8 bg-transparent"
         >
             <div className="max-w-[1240px] mx-auto lg:grid-cols-3  grid gap-16 md:gap-8">
                 <Card

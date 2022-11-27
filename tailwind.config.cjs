@@ -4,12 +4,21 @@ module.exports = {
     theme: {
         extend: {
             colors: {
+                //blue & light green theme
                 primary: "#083d77",
                 primaryDarker: "#112031",
                 secondary: "#fff",
                 accent: "#61ECBD",
                 accentLighter: "#C8F9E8",
                 accentSaturated: "#00F5A3",
+
+                // green orange theme
+                // primary: "#253027",
+                // secondary: "#ebebd3",
+                // accent: "#d97000",
+                // primaryDarker: "#ebe3da",
+                // accentLighter: "#ebe3da",
+                // accentSaturated: "#00F5A3",
             },
             boxShadow: {
                 2: "rgb(17, 32, 49) 0px 20px 30px -10px;",
