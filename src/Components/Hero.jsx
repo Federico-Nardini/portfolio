@@ -3,8 +3,8 @@ import Typed from "react-typed";
 
 const Hero = () => {
     return (
-        <div className="text-secondary">
-            <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
+        <div id="home" className="text-secondary">
+            <div className="max-w-[800px] mt-[-64px] w-full h-screen mx-auto text-center flex flex-col justify-center">
                 <h1 className="text-4xl text-secondary font-bold md:text-7xl sm:text-6xl sm:py-4 md:py-6">
                     I'm Federico Nardini
                 </h1>

@@ -8,7 +8,10 @@ import { SiReact, SiTailwindcss, SiJavascript, SiCss3, SiHtml5 } from "react-ico
 
 const Cards = () => {
     return (
-        <div className="w-full pb-[5rem] md:pb-[10rem] pt-[5rem] md:pt-[10rem] px-8 md:px-8 bg-primary">
+        <div
+            id="projects"
+            className="w-full pb-[5rem] md:pb-[10rem] pt-[5rem] md:pt-[10rem] px-8 md:px-8 bg-primary"
+        >
             <div className="max-w-[1240px] mx-auto lg:grid-cols-3  grid gap-16 md:gap-8">
                 <Card
                     logo={MealPrepDark}
@@ -35,6 +38,7 @@ const Cards = () => {
                     techTwo={<SiTailwindcss size={20} className="text-blue-400" />}
                     nameOne={"React"}
                     nameTwo={"TailwindCSS"}
+                    btnCode={"https://github.com/Federico-Nardini/portfolio"}
                 />
                 <Card
                     logo={ThisPortfolio32}

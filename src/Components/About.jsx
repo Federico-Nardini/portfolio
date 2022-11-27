@@ -4,7 +4,7 @@ import Balerion from "../assets/Balerion.jpg";
 
 const About = () => {
     return (
-        <div className="w-full bg-white py-16 px-8">
+        <div id="about" className="w-full bg-white py-16 px-8">
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
                 <img
                     className="w-[500px] mx-auto my-auto rounded-3xl"
