@@ -1,32 +1,44 @@
 import React from "react";
 
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
+import { HiOutlineMailOpen } from "react-icons/hi";
+import { TbBrandTelegram } from "react-icons/tb";
+import { FiGithub } from "react-icons/fi";
 
 const Newsletter = () => {
     return (
-        <div
-            id="contact"
-            className="w-full  text-primary py-10 bg-gradient-to-l from-blue-300 to-accent"
-        >
-            <div className=" ">
-                <div className="flex-col px-6 md:px-0 flex md:flex-row justify-center">
-                    <h2 className="py-8 md:py-16 px-16 md:text-6xl text-center  w-full md:text-right sm:text-3xl text-2xl font-bold  ">
-                        We're here
-                    </h2>
-                    <div className="py-8 md:py-16 px-16 w-full flex md:items-start items-center flex-col md:text-left rounded-full md:rounded-r-none bg-primary">
-                        <h2 className="md:text-6xl text-transparent inline bg-clip-text bg-gradient-to-r from-blue-300 to-accentSaturated sm:text-3xl text-2xl font-bold">
-                            Let's talk.
-                        </h2>
-
-                        <p className=" border-white text-white md:border-b-2 ml-1 hover:border-accent hover:text-accent  duration-300  md:mr-auto mt-2 text-md md:text-xl">
-                            <a
-                                href="mailto:fnardini1996@gmail.com"
-                                className="flex italic justify-center items-center flex-nowrap"
-                            >
-                                fnardini1996@gmail.com{" "}
-                                <BsFillArrowRightCircleFill size={20} className="pl-1 mt-1" />
-                            </a>
-                        </p>
+        <div className="w-full pb-16 pt-8 md:pt-16 text-primary bg-white px-4">
+            <div className="max-w-[1240px] mx-auto flex flex-col md:flex-row">
+                <div className="lg:col-span-2 my-4   mb-auto mr-auto py-4 px-6 rounded-2xl">
+                    <div className=" ">
+                        <div className="md:flex gap-4 hidden mb-4 font-bold text-7xl">
+                            <h2>We're here,</h2>
+                            <h2>let's talk.</h2>
+                        </div>
+                        <h1 className="md:text-4xl flex flex-col  md:flex-row  sm:text-3xl text-2xl font-bold py-2">
+                            Wanna ask me
+                            <div className="bg-accentLighter ml-[-8px] md:ml-[0px] mt-4 mx-auto md:mt-6 h-[20px] px-2 rounded-lg">
+                                <div className="mt-[-16px]  md:mt-[-24px]">anything?</div>
+                            </div>
+                        </h1>
+                    </div>
+                </div>
+                <div className="my-4 bg-accentLighter text-primary py-8 px-10 rounded-2xl">
+                    <div className="flex  items-center mb-2 justify-between w-full">
+                        <HiOutlineMailOpen size={30} />
+                        <a className="p-3 ml-3 flex w-full  rounded-md font-semibold">
+                            fnardini1996@gmail.com
+                        </a>
+                    </div>
+                    <div className="flex  items-center mb-2 justify-between w-full">
+                        <TbBrandTelegram size={30} />
+                        <a className="p-3 ml-3 flex w-full  rounded-md font-semibold">@mekbeth</a>
+                    </div>
+                    <div className="flex  items-center  justify-between w-full">
+                        <FiGithub size={30} />
+                        <a className="p-3 ml-3 flex w-full  border-white  rounded-md font-semibold">
+                            /Federico-Nardini
+                        </a>
                     </div>
                 </div>
             </div>
