@@ -1,6 +1,5 @@
 import React from "react";
 
-import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { TbBrandTelegram } from "react-icons/tb";
 import { FiGithub } from "react-icons/fi";
@@ -37,6 +36,7 @@ const Contacts = () => {
                         <TbBrandTelegram size={30} />
                         <a
                             href="https://telegram.me/mekbeth"
+                            target="_blank"
                             className="p-3 ml-3 flex w-full  rounded-md font-semibold"
                         >
                             @mekbeth

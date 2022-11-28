@@ -66,7 +66,7 @@ const Navbar = () => {
                     className={
                         !nav
                             ? "fixed left-[-100%]"
-                            : "fixed left-0 top-0 w-[60%] h-full border-r bg-black border-r-gray-900 ease-in-out duration-200"
+                            : "fixed left-0 top-0 w-[60%] h-full border-r bg-primaryDarker border-r-gray-900 ease-in-out duration-200"
                     }
                 >
                     <h1 className="w-full text-3xl font-bold text-accent m-4">Fe.</h1>
