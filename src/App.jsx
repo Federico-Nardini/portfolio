@@ -2,7 +2,7 @@ import { React, useState } from "react";
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
-import Newsletter from "./Components/Newsletter";
+import Contacts from "./Components/Contacts";
 import CardsContainer from "./Components/Cards/CardsContainer";
 import Footer from "./Components/Footer";
 
@@ -13,7 +13,7 @@ function App() {
             <Hero />
             <About />
             <CardsContainer />
-            <Newsletter />
+            <Contacts />
             <Footer />
         </div>
     );

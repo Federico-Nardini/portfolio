@@ -5,9 +5,9 @@ import { HiOutlineMailOpen } from "react-icons/hi";
 import { TbBrandTelegram } from "react-icons/tb";
 import { FiGithub } from "react-icons/fi";
 
-const Newsletter = () => {
+const Contacts = () => {
     return (
-        <div className="w-full pb-16 pt-8 md:pt-16 text-primary bg-white px-4">
+        <div id="contact" className="w-full pb-16 pt-8 md:pt-16 text-primary bg-white px-4">
             <div className="max-w-[1240px] mx-auto flex flex-col md:flex-row">
                 <div className="lg:col-span-2 my-4   mb-auto mr-auto py-4 px-6 rounded-2xl">
                     <div className=" ">
@@ -26,17 +26,29 @@ const Newsletter = () => {
                 <div className="my-4 bg-accentLighter text-primary py-8 px-10 rounded-2xl">
                     <div className="flex  items-center mb-2 justify-between w-full">
                         <HiOutlineMailOpen size={30} />
-                        <a className="p-3 ml-3 flex w-full  rounded-md font-semibold">
+                        <a
+                            href="mailto:fnardini1996@gmail.com"
+                            className="p-3 ml-3 flex w-full  rounded-md font-semibold"
+                        >
                             fnardini1996@gmail.com
                         </a>
                     </div>
                     <div className="flex  items-center mb-2 justify-between w-full">
                         <TbBrandTelegram size={30} />
-                        <a className="p-3 ml-3 flex w-full  rounded-md font-semibold">@mekbeth</a>
+                        <a
+                            href="https://telegram.me/mekbeth"
+                            className="p-3 ml-3 flex w-full  rounded-md font-semibold"
+                        >
+                            @mekbeth
+                        </a>
                     </div>
                     <div className="flex  items-center  justify-between w-full">
                         <FiGithub size={30} />
-                        <a className="p-3 ml-3 flex w-full  border-white  rounded-md font-semibold">
+                        <a
+                            href="https://github.com/Federico-Nardini"
+                            target="_blank"
+                            className="p-3 ml-3 flex w-full  border-white  rounded-md font-semibold"
+                        >
                             /Federico-Nardini
                         </a>
                     </div>
@@ -46,4 +58,4 @@ const Newsletter = () => {
     );
 };
 
-export default Newsletter;
+export default Contacts;

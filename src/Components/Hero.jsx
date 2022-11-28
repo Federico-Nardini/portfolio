@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
+import { Link } from "react-scroll";
 
 const Hero = () => {
     return (
@@ -34,9 +35,15 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <button className="bg-transparent w-[200px]  border-4 hover:bg-accent hover:text-primary  rounded-full  duration-300 border-accent font-medium my-6 mx-auto py-3 text-accent">
-                    My projects
-                </button>
+                <Link
+                    to="projects"
+                    className="bg-transparent w-[200px]  border-4 hover:bg-accent hover:text-primary cursor-pointer rounded-full  duration-300 border-accent font-medium my-6 mx-auto py-3 text-accent"
+                    activeClass="active"
+                    smooth={true}
+                    duration={400}
+                >
+                    Projects
+                </Link>
             </div>
         </div>
     );
