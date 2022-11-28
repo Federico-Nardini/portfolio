@@ -6,7 +6,7 @@ import { FiGithub } from "react-icons/fi";
 
 const Contacts = () => {
     return (
-        <div id="contact" className="w-full pb-16 pt-8 md:pt-16 text-primary bg-white px-4">
+        <div id="contact" className="w-full pb-16 pt-8 md:pt-16 text-primary bg-white px-8">
             <div className="max-w-[1240px] mx-auto flex flex-col md:flex-row">
                 <div className="lg:col-span-2 my-4   mb-auto mr-auto py-4 px-6 rounded-2xl">
                     <div className=" ">
@@ -16,18 +16,18 @@ const Contacts = () => {
                         </div>
                         <h1 className="md:text-4xl flex flex-col  md:flex-row  sm:text-3xl text-2xl font-bold py-2">
                             Wanna ask me
-                            <div className="bg-accentLighter ml-[-8px] md:ml-[0px] mt-4 mx-auto md:mt-6 h-[20px] px-2 rounded-lg">
+                            <div className="bg-accentLighter ml-[-8px] md:ml-[0px] mt-4 mx-auto md:mt-6 h-[20px] md:h-[23px] px-2 rounded-lg">
                                 <div className="mt-[-16px]  md:mt-[-24px]">anything?</div>
                             </div>
                         </h1>
                     </div>
                 </div>
-                <div className="my-4 bg-accentLighter text-primary py-8 px-10 rounded-2xl">
+                <div className="my-4 bg-accentLighter shadow-6 text-primary py-8 px-6 rounded-2xl">
                     <div className="flex  items-center mb-2 justify-between w-full">
                         <HiOutlineMailOpen size={30} />
                         <a
                             href="mailto:fnardini1996@gmail.com"
-                            className="p-3 ml-3 flex w-full  rounded-md font-semibold"
+                            className="p-3 ml-2 flex w-full  rounded-md font-semibold"
                         >
                             fnardini1996@gmail.com
                         </a>
@@ -37,7 +37,7 @@ const Contacts = () => {
                         <a
                             href="https://telegram.me/mekbeth"
                             target="_blank"
-                            className="p-3 ml-3 flex w-full  rounded-md font-semibold"
+                            className="p-3 ml-2 flex w-full  rounded-md font-semibold"
                         >
                             @mekbeth
                         </a>
@@ -47,7 +47,7 @@ const Contacts = () => {
                         <a
                             href="https://github.com/Federico-Nardini"
                             target="_blank"
-                            className="p-3 ml-3 flex w-full  border-white  rounded-md font-semibold"
+                            className="p-3 ml-2 flex w-full  border-white  rounded-md font-semibold"
                         >
                             /Federico-Nardini
                         </a>

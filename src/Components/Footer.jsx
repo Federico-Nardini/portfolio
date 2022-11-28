@@ -11,11 +11,11 @@ import {
 
 const Footer = () => {
     return (
-        <div className=" mx-auto py-20 md:pt-24 md:pb-10 px-4 bg-primary text-gray-400">
+        <div className=" mx-auto pt-20 pb-0 md:pt-20 md:pb-0 px-4 bg-primary text-gray-400">
             <div className="md:flex-col md:text-center md:justify-center ">
-                <h1 className=" text-3xl font-bold text-[#00df9a]">Fe.</h1>
+                <h1 className=" text-3xl font-bold text-gray-400">Fe.</h1>
 
-                <p className="py-4">
+                <p className="pt-4 pb-2">
                     This website is completely made by me with React and{" "}
                     <a className="text-blue-400" target="_blank" href="https://tailwindcss.com/">
                         TailwindCSS
@@ -83,6 +83,7 @@ const Footer = () => {
                         <FaLinkedin size={25} />
                     </a>
                 </div>
+                <p className="text-center mt-10 mb-2">2022</p>
             </div>
         </div>
     );
