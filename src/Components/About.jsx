@@ -1,14 +1,15 @@
 import React from "react";
 
 import Balerion from "../assets/Balerion.jpg";
+import Fdico from "../assets/Fdico.jpg";
 
 const About = () => {
     return (
         <div id="about" className="w-full bg-white py-16 px-8">
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
                 <img
-                    className="w-[500px] mx-auto  my-auto rounded-3xl"
-                    src={Balerion}
+                    className="w-[400px] mx-auto  my-auto rounded-3xl"
+                    src={Fdico}
                     alt="laptop img"
                 />
 
